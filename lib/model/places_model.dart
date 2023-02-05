@@ -32,7 +32,7 @@ class Places {
 }
 
 //Lamps
-final padar_island = Places(
+final padarIsland = Places(
     imgUrl: ImageNames.poland_island,
     name: "Padar Island",
     location: "Komodo National Park",
@@ -45,6 +45,6 @@ final skylar = Places(
     cost: 68);
 
 List<Places> places = [
-  padar_island,
+  padarIsland,
   skylar,
 ];

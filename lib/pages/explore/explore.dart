@@ -156,7 +156,8 @@ class Explore extends StatelessWidget {
                                     padding: const EdgeInsets.all(18.0),
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(30),
-                                        color: Colors.black.withOpacity(0.2)),
+                                        color: Color(0xff171433)
+                                            .withValues(alpha: 0.1)),
                                     child: BackdropFilter(
                                       filter: new ImageFilter.blur(
                                           sigmaX: 25.0, sigmaY: 25.0),
@@ -186,7 +187,8 @@ class Explore extends StatelessWidget {
                                     padding: const EdgeInsets.all(18.0),
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(30),
-                                        color: Colors.black.withOpacity(0.1)),
+                                        color: Color(0xff171433)
+                                            .withValues(alpha: 0.1)),
                                     child: BackdropFilter(
                                       filter: new ImageFilter.blur(
                                           sigmaX: 1.0, sigmaY: 1.0),
